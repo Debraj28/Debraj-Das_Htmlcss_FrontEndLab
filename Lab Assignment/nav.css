@@ -1,0 +1,67 @@
+#NavId {
+    position: sticky;
+    top: 0%;
+    z-index: 1;
+}
+
+.menu {
+    margin: 0%;
+    background-color: rgb(162, 162, 168);
+}
+
+.menu li{
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li a{
+    color: white;
+    font-size: 20;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    background-color: black;
+}
+
+.menu li:nth-child(2):hover #DropDown, .menu li:nth-child(3):hover #DropDown{
+    display: block;
+    /*background-color: white; */
+}
+
+#DropDown li{
+    display:block;
+    margin:0%;
+
+}
+
+#DropDown li a{
+    color: blue;
+    font-size: 15px;
+}
+
+#DropDown li:hover{
+    background-color:white;
+}
+
+#DropDown {
+    position:absolute;
+    width: auto;
+    max-width: 150;
+    display: none;
+    top: 100%;
+    background-color: whitesmoke;
+    padding:0%;
+}
+
+header {
+    background-color: red;
+    text-align: center;
+    padding: 10px;
+
+}
+
+body {
+    margin: 0%;
+    height: auto;
+}
